@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' http://* 'unsafe-eval'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Driver Printer Multi Platform || Listen Rest Api from Server</title>
+  </head>
+  <body>
+    <main class="m-1">
+      <img src="./logo.png" alt="Logo" class="mx-auto d-block" width="300px"/>
+      <p class="fs-1 fw-bold text-center">Driver Printer Multi Platform</p>
+      <p class="fs-6 fw-lighter lh-1 text-center">
+        <small class="fw-lighter">Driver Printer Version 1.0.0</small>
+      </p>
+    </main>
+    <footer class="text-center fixed-bottom">
+      <p class="fw-lighter" id="info"></p>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
