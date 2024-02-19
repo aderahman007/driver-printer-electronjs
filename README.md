@@ -40,3 +40,5 @@ Untuk melakukan packaging driver agar bisa digunakan pada windows, linux atau ma
 ```
 npx electron-packager . --overwrite --asar --extra-resource="setting.json" --platform=all --icon=./icons/icon.ico
 ```
+
+Hasil compile dapat di download melalui link berikut : [Download hasil packaging](https://drive.google.com/drive/folders/1INsunOYVxC0MnRzQqf3EYNkhXANXrOfu?usp=sharing)
