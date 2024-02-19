@@ -1,6 +1,6 @@
 # Driver printer electronJs
 
-Driver printer electronJs ini merupakan driver yang di gunakan sebagai perantara untuk print struk dari aplikasi antrian general dynamic electron js [aplikasi antrian general dynamic electronjs](doc:https://github.com/aderahman007/aplikasi-antrian-general-electronjs)
+Driver printer electronJs ini merupakan driver yang di gunakan sebagai perantara untuk print struk dari aplikasi antrian general dynamic electron js [aplikasi antrian general dynamic electronjs](https://github.com/aderahman007/aplikasi-antrian-general-electronjs)
 
 # Configurasi
 Pastikan sudah install node js version >= 18.19.0 di komputer anda
