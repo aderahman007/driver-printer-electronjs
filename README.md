@@ -58,3 +58,9 @@ Hasil compile dapat di download melalui link berikut : [Download hasil packaging
 3. Download dan Install [Zadig](http://sourceforge.net/projects/libwdi/files/zadig) untuk WinUSB Driver
 4. Buka zadig > options > list All Devices
 5. Pilih dan ganti driver printer dengan driver WinUSB Zadig
+
+# Support me
+Donation to give me a Gift   
+Saweria : https://saweria.co/aderahman007
+
+#### Script MIT Lisence
