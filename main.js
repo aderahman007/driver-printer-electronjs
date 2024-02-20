@@ -1,5 +1,4 @@
 const { app, dialog, BrowserWindow, ipcMain, Menu } = require("electron");
-const { testPrinter } = require("./printer")
 const path = require("node:path");
 const fs = require("fs");
 
@@ -68,16 +67,6 @@ const createWindow = () => {
     });
   });
 
-  ipcMain.on("dokumentasi", (even, args) => {
-    const dokumentasi = new BrowserWindow({
-      parent: win,
-      width: 600,
-      height: 500,
-    });
-    dokumentasi.loadURL(args);
-    dokumentasi.show();
-  });
-
   ipcMain.on("back", (even, args) => {
     if (args.to == "home") {
       win.loadFile("index.html");
@@ -114,13 +103,13 @@ const createWindow = () => {
             win.loadFile("setting-printer-thermal.html");
           },
         },
-        {
-          label: "Setting Printer Global",
-          click: async () => {
-            const { shell } = require("electron");
-            await shell.openExternal("https://electronjs.org");
-          },
-        }
+        // {
+        //   label: "Setting Printer Global",
+        //   click: async () => {
+        //     const { shell } = require("electron");
+        //     await shell.openExternal("https://electronjs.org");
+        //   },
+        // }
       ],
     },
     // { role: 'editMenu' }
@@ -191,6 +180,7 @@ const createWindow = () => {
 };
 
 ipcMain.on("onTestPrint", (even, args) => {
+  const { testPrinter } = require("./printer");
   testPrinter();
 });
 

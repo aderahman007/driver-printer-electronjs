@@ -6,7 +6,6 @@
         const express = require("express");
         const cors = require("cors");
         const port = 3000;
-        const { printAntrian } = require("./printer")
 
         const app = express();
         app.use(cors());
@@ -17,6 +16,7 @@
         });
 
         app.post("/printantrian", (req, res) => {
+            const { printAntrian } = require("./printer");
             res.json({ status: "success" });
             let request = req.body;
             printAntrian(request.no_antrian, request.code_antrian, request.config);
