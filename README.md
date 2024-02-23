@@ -67,4 +67,5 @@ Follow me :
 **Instagram** : [@aderahman_007](https://www.instagram.com/aderahman_007) || [@adeofficial007](https://www.instagram.com/adeofficial007)
 
 #### Script MIT Lisence
-Aplikasi ini bersifat **Open Source** siapa pun dapat mengembangkan dan berkontribusi tapi dilarang keras untuk diperjual belikan tanpa seizin Developper
+Aplikasi ini bersifat **Open Source** siapa pun dapat menggunakan, mengembangkan dan berkontribusi.
+Dilarang keras untuk memperjual belikan/mengambil keuntungan dari aplikasi ini dalam bentuk apapun tanpa seizin Developper.
