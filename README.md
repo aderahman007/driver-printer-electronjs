@@ -63,4 +63,8 @@ Hasil compile dapat di download melalui link berikut : [Download hasil packaging
 Donation to give me a Gift   
 Saweria : https://saweria.co/aderahman007
 
+Follow me :  
+**Instagram** : [@aderahman_007](https://www.instagram.com/aderahman_007) || [@adeofficial007](https://www.instagram.com/adeofficial007)
+
 #### Script MIT Lisence
+Aplikasi ini bersifat **Open Source** siapa pun dapat mengembangkan dan berkontribusi tapi dilarang keras untuk diperjual belikan tanpa seizin Developper
