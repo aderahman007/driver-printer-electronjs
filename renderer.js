@@ -55,8 +55,8 @@ const testConnectServer = () => {
       setting.ip_server +
       ":" +
       setting.ip_server_port +
-      "/" +
-      setting.nama_service_server +
+      ((setting.virtualhost_with_port === 'tidak') ? "/" +
+      setting.nama_service_server : '') +
       "/pages/printer/action.php";
 
     let fetchData = {
