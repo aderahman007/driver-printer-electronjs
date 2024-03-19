@@ -1,6 +1,4 @@
-const { contextBridge, ipcRenderer } = require("electron/renderer");
-const fs = require("fs");
-const path = require("path");
+const { ipcRenderer } = require("electron/renderer");
 
 const form = document.getElementById("form-setting");
 const liveToast = document.getElementById("liveToast");
@@ -50,14 +48,7 @@ const testConnectServer = () => {
   ipcRenderer.send("readSetting");
   ipcRenderer.on("onReadSetting", (even, args) => {
     let setting = JSON.parse(args);
-    let url =
-      "http://" +
-      setting.ip_server +
-      ":" +
-      setting.ip_server_port +
-      ((setting.virtualhost_with_port === 'tidak') ? "/" +
-      setting.nama_service_server : '') +
-      "/pages/printer/action.php";
+    let url = "http://" + setting.ip_server + ":" + setting.ip_server_port + ((setting.using_virtualhost_on_server === 'tidak') ? "/" + setting.nama_service_server : '') + "/pages/printer/action.php";
 
     let fetchData = {
       method: "POST",

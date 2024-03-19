@@ -1,1 +1,1 @@
-{"ip_komputer":"127.0.0.1","ip_komputer_port":"80","ip_server":"127.0.0.1","ip_server_port":"80","nama_service_server":"aplikasi-antrian-v3","virtualhost_with_port":"tidak"}
+{"ip_komputer":"127.0.0.1","ip_komputer_port":"80","ip_server":"127.0.0.1","ip_server_port":"80","nama_service_server":"aplikasi-antrian-v3","type_koneksi_server": "local","using_virtualhost_on_server":"tidak"}

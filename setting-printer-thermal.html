@@ -81,11 +81,22 @@
               </div>
             </div>
             <div class="row">
-              <label for="virtualhost_with_port" class="col-sm-3 col-form-label"
-                >VirtualHost With Port?</label
+              <label for="type_koneksi_server" class="col-sm-3 col-form-label"
+                >Type Koneksi Server</label
               >
               <div class="col-sm-9">
-                <select name="virtualhost_with_port" id="virtualhost_with_port" class="form-control form-control-sm">
+                <select name="type_koneksi_server" id="type_koneksi_server" class="form-control form-control-sm">
+                  <option value="local">Local</option>
+                  <option value="network">Network</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <label for="using_virtualhost_on_server" class="col-sm-3 col-form-label"
+                >Using VirtualHost on Server?</label
+              >
+              <div class="col-sm-9">
+                <select name="using_virtualhost_on_server" id="using_virtualhost_on_server" class="form-control form-control-sm">
                   <option value="tidak">Tidak</option>
                   <option value="ya">Ya</option>
                 </select>
@@ -93,7 +104,14 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                <small class="text-info">Note: Jika menggunakan virtualhost dengan setting port pada server maka Nama Service Server boleh di kosongkan</small>
+                <small class="text-info"><strong>Note:</strong> <br> 
+                  <ul>
+                    <li>Type Koneksi Server <b>Local</b> adalah kondisi komputer printer dalam satu jaringan dengan server aplikasi antrian.</li>
+                    <li>Type Koneksi Server <b>Network</b> adalah kondisi dimana komputer printer dengan server aplikasi antrian (Exp. Aplikasi antrian berada di hosting/vps/mengguankan ip public).</li>
+                    <li>Jika Type koneksi server network dan anda menggunakan domain maka tuliskan nama domain anda tanpa mengguankan protocolnya (Exp. example.com)</li>
+                    <li>Jika menggunakan virtualhost dengan setting port pada server maka Nama Service Server boleh di kosongkan atau diisi sesuai dengan nama service aplikasi antrian.</li>
+                  </ul>
+                </small>
               </div>
             </div>
             
